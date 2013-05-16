@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 16 May 2013 10:30:35 AM EST
+
+BeginCmp
+TimeStamp = /50935B3B;
+Reference = J1;
+ValeurCmp = MINI_DIN_6;
+IdModule  = MD-6006;
+EndCmp
+
+BeginCmp
+TimeStamp = /50935B42;
+Reference = J2;
+ValeurCmp = MINI_DIN_6;
+IdModule  = MD-6006;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F420F;
+Reference = J3;
+ValeurCmp = JACK_NO_SWITCH;
+IdModule  = JACK_35MM_NO_SWITCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F3957;
+Reference = R1;
+ValeurCmp = 2K2;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F3966;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F3975;
+Reference = R3;
+ValeurCmp = 2K2;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F3BBF;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+EndListe

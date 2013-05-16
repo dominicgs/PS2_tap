@@ -1,0 +1,231 @@
+EESchema Schematic File Version 2  date Thu 16 May 2013 10:29:27 AM EST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ps2_tap
+LIBS:ps2_tap-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "PS/2 Tap"
+Date "16 may 2013"
+Rev ""
+Comp "Copyright 2012 Dominic Spill"
+Comment1 "License: GPL v2"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MINI_DIN_6 J2
+U 1 1 50935B42
+P 7250 3750
+F 0 "J2" H 7600 3850 60  0000 C CNN
+F 1 "MINI_DIN_6" H 7600 4550 60  0000 C CNN
+F 2 "" H 7250 3750 60  0001 C CNN
+F 3 "" H 7250 3750 60  0001 C CNN
+F 4 "On Shore Technology Inc" H 7250 3750 60  0001 C CNN "Manufacturer"
+F 5 "MD-6006" H 7250 3750 60  0001 C CNN "Part Number"
+F 6 "Mini-din 6 Socket" H 7250 3750 60  0001 C CNN "Description"
+	1    7250 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MINI_DIN_6 J1
+U 1 1 50935B3B
+P 3450 3750
+F 0 "J1" H 3800 3850 60  0000 C CNN
+F 1 "MINI_DIN_6" H 3800 4550 60  0000 C CNN
+F 2 "" H 3450 3750 60  0001 C CNN
+F 3 "" H 3450 3750 60  0001 C CNN
+F 4 "On Shore Technology Inc" H 3450 3750 60  0001 C CNN "Manufacturer"
+F 5 "MD-6006" H 3450 3750 60  0001 C CNN "Part Number"
+F 6 "Mini-din 6 Socket" H 3450 3750 60  0001 C CNN "Description"
+	1    3450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 518F3957
+P 5550 3900
+F 0 "R1" V 5630 3900 40  0000 C CNN
+F 1 "2K2" V 5557 3901 40  0000 C CNN
+F 2 "~" V 5480 3900 30  0000 C CNN
+F 3 "~" H 5550 3900 30  0000 C CNN
+	1    5550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 518F3966
+P 5550 4550
+F 0 "R2" V 5630 4550 40  0000 C CNN
+F 1 "1K" V 5557 4551 40  0000 C CNN
+F 2 "~" V 5480 4550 30  0000 C CNN
+F 3 "~" H 5550 4550 30  0000 C CNN
+	1    5550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 518F3975
+P 5800 4000
+F 0 "R3" V 5880 4000 40  0000 C CNN
+F 1 "2K2" V 5807 4001 40  0000 C CNN
+F 2 "~" V 5730 4000 30  0000 C CNN
+F 3 "~" H 5800 4000 30  0000 C CNN
+	1    5800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 518F3BBF
+P 5800 4600
+F 0 "R4" V 5880 4600 40  0000 C CNN
+F 1 "1K" V 5807 4601 40  0000 C CNN
+F 2 "~" V 5730 4600 30  0000 C CNN
+F 3 "~" H 5800 4600 30  0000 C CNN
+	1    5800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P_NO_CON J3
+U 1 1 518F420F
+P 4400 4250
+F 0 "J3" H 4400 4050 60  0000 C CNN
+F 1 "JACK_NO_SWITCH" H 4400 4500 60  0000 C CNN
+F 2 "" H 4400 4250 60  0000 C CNN
+F 3 "" H 4400 4250 60  0000 C CNN
+F 4 "Switchcraft Inc." H 4400 4250 60  0001 C CNN "Manufacturer"
+F 5 "35RASMT2BHNTRX" H 4400 4250 60  0001 C CNN "Part Number"
+F 6 "3.5mm Barrel Jack" H 4400 4250 60  0001 C CNN "Description"
+	1    4400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 518F42AB
+P 5350 4550
+F 0 "#PWR01" H 5350 4550 30  0001 C CNN
+F 1 "GND" H 5350 4480 30  0001 C CNN
+F 2 "" H 5350 4550 60  0000 C CNN
+F 3 "" H 5350 4550 60  0000 C CNN
+	1    5350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 518F4650
+P 5800 5000
+F 0 "#PWR02" H 5800 5000 30  0001 C CNN
+F 1 "GND" H 5800 4930 30  0001 C CNN
+F 2 "" H 5800 5000 60  0000 C CNN
+F 3 "" H 5800 5000 60  0000 C CNN
+	1    5800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3150 6400 3150
+Wire Wire Line
+	4300 3250 6400 3250
+Wire Wire Line
+	4300 3050 6400 3050
+Wire Wire Line
+	4300 3450 6400 3450
+Wire Wire Line
+	5350 4350 5350 4550
+Wire Wire Line
+	5800 4850 5800 5000
+Wire Wire Line
+	5800 4250 5800 4350
+Wire Wire Line
+	4300 3550 6400 3550
+$Comp
+L GND #PWR05
+U 1 1 518F5B0D
+P 5550 5000
+F 0 "#PWR05" H 5550 5000 30  0001 C CNN
+F 1 "GND" H 5550 4930 30  0001 C CNN
+F 2 "" H 5550 5000 60  0000 C CNN
+F 3 "" H 5550 5000 60  0000 C CNN
+	1    5550 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4800 5550 5000
+Wire Wire Line
+	5550 4150 5550 4300
+Wire Wire Line
+	4300 3350 6400 3350
+$Comp
+L GND #PWR07
+U 1 1 518F5CBE
+P 6100 3750
+F 0 "#PWR07" H 6100 3750 30  0001 C CNN
+F 1 "GND" H 6100 3680 30  0001 C CNN
+F 2 "" H 6100 3750 60  0000 C CNN
+F 3 "" H 6100 3750 60  0000 C CNN
+	1    6100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3750 6100 3350
+Text Label 4950 3150 0    60   ~ 0
+CLK
+Text Label 4950 3250 0    60   ~ 0
+VCC
+Text Label 4950 3350 0    60   ~ 0
+GND
+Text Label 4950 3450 0    60   ~ 0
+M_DATA
+Text Label 4950 3550 0    60   ~ 0
+DATA
+Wire Wire Line
+	5350 4350 4850 4350
+Wire Wire Line
+	4850 4250 5800 4250
+Wire Wire Line
+	5550 4150 4850 4150
+Text Label 5000 4150 0    60   ~ 0
+CLK_OUT
+Text Label 5000 4250 0    60   ~ 0
+DATA_OUT
+Text Label 4950 3050 0    60   ~ 0
+M_CLK
+Connection ~ 6100 3350
+Wire Wire Line
+	5550 3650 5550 3150
+Connection ~ 5550 3150
+Wire Wire Line
+	5800 3550 5800 3750
+Connection ~ 5800 3550
+$EndSCHEMATC

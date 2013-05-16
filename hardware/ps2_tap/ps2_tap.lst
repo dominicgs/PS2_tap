@@ -1,0 +1,22 @@
+eeschema (2013-mar-13)-testing  >> Creation date: Thu 16 May 2013 10:29:55 AM EST
+#Cmp ( order = Reference )
+| J1         MINI_DIN_6  ; On Shore Technology Inc; MD-6006     ; Mini-din 6 Socket;             
+| J2         MINI_DIN_6  ; On Shore Technology Inc; MD-6006     ; Mini-din 6 Socket;             
+| J3         JACK_NO_SWITCH; Switchcraft Inc.; 35RASMT2BHNTRX; 3.5mm Barrel Jack;             
+| R1         2K2         ;             ;             ;             ;             
+| R2         1K          ;             ;             ;             ;             
+| R3         2K2         ;             ;             ;             ;             
+| R4         1K          ;             ;             ;             ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| MINI_DIN_6   J1        ; On Shore Technology Inc; MD-6006     ; Mini-din 6 Socket;             
+| MINI_DIN_6   J2        ; On Shore Technology Inc; MD-6006     ; Mini-din 6 Socket;             
+| JACK_NO_SWITCH J3        ; Switchcraft Inc.; 35RASMT2BHNTRX; 3.5mm Barrel Jack;             
+| 1K           R2        ;             ;             ;             ;             
+| 1K           R4        ;             ;             ;             ;             
+| 2K2          R1        ;             ;             ;             ;             
+| 2K2          R3        ;             ;             ;             ;             
+#End Cmp
+
+#End List
